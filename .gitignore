@@ -1,0 +1,37 @@
+# KiCad backups / autosave
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+
+# KiCad lock files (session locks, never meant to be shared)
+*.lck
+
+# KiCad caches (regenerated locally, don't diff well)
+fp-info-cache
+*-cache.lib
+
+# Plot/export/fabrication output
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+gerber/
+plot/
+fab/
+**/*-gerbers/
+
+# 3D export output (but keep the ones the local footprint override needs)
+*.step
+*.stp
+*.wrl
+!local_3dshapes/*.step
+
+# Per-user KiCad view state (hidden nets, opacity, selection filter, last
+# open sheet) - not project data, churns constantly, not portable
+*.kicad_prl
+
+# OS cruft
+.DS_Store
+Thumbs.db

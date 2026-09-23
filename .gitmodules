@@ -1,0 +1,3 @@
+[submodule "libs/heltec-lora32-kicad"]
+	path = libs/heltec-lora32-kicad
+	url = https://github.com/The1TrueJoe/heltec-lora32-kicad.git
